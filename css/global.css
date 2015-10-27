@@ -1,0 +1,101 @@
+.wrapper /*.class*/
+{
+	background: #FF0;
+}
+
+#hola /*#id*/
+{
+	background: #F4FA58;
+}
+
+*
+{
+	background: #58FA58;
+}
+p /*element*/
+{
+	background: #8000FF;
+}
+h1, h3 /*element,element*/
+{
+	background: #81DAF5;
+}
+h2 head /*element element*/
+{
+	background: #FE2E2E;
+}
+div>p /*element>element*/
+{
+	background: #FF8000;
+}
+
+div + p /*element+element*/
+{
+	background: #DF013A;
+}
+
+p ~ ul /*element~element*/
+{
+	background: #01DF74;
+}
+
+a[target] /*[atributte]*/
+{
+	background: #A9A9F5;
+}
+
+a[target=yolo] /*[target=value]*/
+{
+    background-color: #995C00;
+}
+
+[title~=CMPunk] /*[attribute~=value]*/
+{
+    border: 10px solid #003399;
+}
+
+[lang|=en] /*[attribute|=value]*/
+{
+    background: #99CC00;
+}
+
+a:active /*:active*/
+{
+	background: #00FF00;
+}
+
+p::after /*:after*/ 
+{ 
+    content: " - look at this";
+}
+
+input:checked /*:checked*/
+{
+    height: 50px;
+    width: 50px;
+}
+
+input[type=text]:enabled /*:enabled*/
+{
+    background: #ffff00;
+}
+
+input[type=text]:disabled /*:disabled*/
+{
+    background: #dddddd;
+}
+
+p:first-child /*:first-chid*/
+{
+	background: #FF33CC;
+}
+
+p:first-letter
+{
+	background: #FFCC99;
+}
+
+input:valid /*:valid*/
+{
+    background: blue;
+}
